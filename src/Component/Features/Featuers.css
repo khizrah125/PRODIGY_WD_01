@@ -1,0 +1,30 @@
+.button
+{
+    max-width: fit-content;
+    align-self: center;
+}
+.button:hover {
+    background-color: white !important;
+    color: black !important;
+    border: black;
+  }
+
+  #featuers
+  {
+    color:rgb(22, 22, 52)
+  }
+
+  .feature-box 
+  {
+    box-shadow: 0 4px 8px rgb(30, 129, 88); /* Box shadow */
+    border-radius: 10px; /* Corner curves */
+    padding: 10px; /* Add padding inside the box */
+    /* background-color: #fff; Optional: background */
+  }
+  .hr
+{
+    margin-top:10%;
+}
+
+  
+ 

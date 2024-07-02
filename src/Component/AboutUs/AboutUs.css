@@ -1,0 +1,27 @@
+.button
+{
+    max-width: fit-content;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: white !important;
+    color: black !important;
+  }
+
+.about-txt
+{
+    animation: fadeIn 5s;
+    color:rgb(22, 22, 52);
+}
+
+.about-img
+{
+    animation: slideUp 1s forwards;
+    opacity: 0;
+}
+.hr
+{
+    margin-top:13%;
+}
+

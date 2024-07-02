@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+/* Align navbar items to the left when collapsed */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    justify-content: flex-start;
+  }
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #e5e7ec; /* Change the color as needed */
+}
+
+
+.nav-link:hover
+{
+  color: rgba(0, 128, 0, 0.691)
+}
+
+/* Sticky navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .nav-link {
+  color: white; /* Default text color */
+  transition: color 0.3s ease;
+}
+
+.navbar-light.scrolled .nav-link .navbar-brand {
+  color: black; /* Text color on scroll */
+}

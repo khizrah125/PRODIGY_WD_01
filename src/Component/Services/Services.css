@@ -1,0 +1,7 @@
+.service-item  :hover {
+  border: solid rgb(31, 213, 31);
+  
+    cursor:pointer;
+  }
+
+ 
